@@ -16,8 +16,8 @@ update-po ĝisdatigi: ĝisdatigi-mesaĝojn ĝisdatigi-statikan
 	cd LC_MESSAGES && cp -f static.po static.po~
 	@msgmerge -Uq LC_MESSAGES/static.po ../static.pot
 
-clean distclean purigi:
-	rm -f $(wildcard _global.php  ../eo*.tar.xz)
+clean purigi:
+	rm -f $(wildcard _global.php ../eo*.tar.xz)
 	rm -f $(wildcard LC_MESSAGES/*.po~)
 
 xz: ĉio
