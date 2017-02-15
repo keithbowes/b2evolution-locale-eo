@@ -43,18 +43,25 @@ elseif (!isset($is_cli) || $is_cli)
 }
 
 $locale_defs['eo'] = array(
-		'name' => NT_('Esperanto UTF-8'),
-		'charset' => 'UTF-8',
+		'name' => NT_('Esperanto utf-8'),
+		'charset' => 'utf-8',
 		'datefmt' => 'Y-M-d',
 		'timefmt' => 'H:i:s',
 		'startofweek' => 0,
 		'messages' => 'eo',
 		/* When no iconv, transliterate as if there were */
+		/* Added in b2evolution 5 */
 		'transliteration_map' => array(
 			'ĉ' => 'cx', 'ĝ' => 'gx', 'ĥ' => 'hx', 'ĵ' => 'jx', 'ŝ' => 'sx', 'ŭ' => 'ux',
 			'Ĉ' => 'Cx', 'Ĝ' => 'Gx', 'Ĥ' => 'Hx', 'Ĵ' => 'Jx', 'Ŝ' => 'Sx', 'Ŭ' => 'Ux',
 			'«' => '', '»' => '', '„' => '', '”' => '', '‚' => '', '’' => '',
 		),
+		/* So posts will be editable in 6.8+ */
+		'extdateftmt' => 'Y M d',
+		'input_datefmt' => 'Y-M-d',
+		'input_timefmt' => 'H:i:s',
+		'longdatefmt' => 'Y-M-d',
+		'shorttimefmt' => 'H:i',
 	);
 
 get_encoded_translit($locale_defs['eo']['transliteration_map']);
