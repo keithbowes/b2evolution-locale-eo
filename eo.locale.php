@@ -14,16 +14,18 @@
  *
  */
 
-/* Display the encoded transliteration to insert in the database when running from CLI.
+
+
+/* Display the encoded transliteration to insert in the database when running as a standalone script (not part of b2evolution).
  * Otherwise, display nothing. */
-global $is_cli;
-if (isset($is_cli) && !$is_cli && !function_exists('get_encoded_translit'))
+$is_standalone = !defined('EVO_CONFIG_LOADED');
+if (!$is_standalone && !function_exists('get_encoded_translit'))
 {
 	function get_encoded_translit($str)
 	{
 	}
 }
-elseif (!isset($is_cli) || $is_cli)
+elseif ($is_standalone)
 {
 	if (!function_exists('NT_'))
 	{
