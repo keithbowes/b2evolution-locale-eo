@@ -7,7 +7,7 @@ if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.'
 
 $trans['eo'] = array(
 '__meta__' => array('format_version'=>1, 'charset'=>'utf-8'),
-'' => "Project-Id-Version: b2evolution\nReport-Msgid-Bugs-To: http://fplanque.net\nPOT-Creation-Date: 2018-02-24 10:15-0500\nPO-Revision-Date: 2018-02-24 10:24-0500\nLast-Translator: Keith Bowes <zooplah@gmail.com>\nLanguage-Team: Esperanto (http://www.transifex.com/projects/p/b2evolution/language/eo/)\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n",
+'' => "Project-Id-Version: b2evolution\nReport-Msgid-Bugs-To: http://fplanque.net\nPOT-Creation-Date: 2018-06-10 18:00-0400\nPO-Revision-Date: 2018-06-10 18:01-0400\nLast-Translator: Keith Bowes <zooplah@gmail.com>\nLanguage-Team: Esperanto (http://www.transifex.com/projects/p/b2evolution/language/eo/)\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n",
 'Folder' => 'Dosierujo',
 'Unknown file' => 'Nekonata dosiero',
 'Empty file' => 'Vaka dosiero',
@@ -2183,7 +2183,7 @@ $trans['eo'] = array(
 'Send email to comment author' => 'Sendi al komenta verkisto retpoŝtmesaĝon',
 'Send message to comment author' => 'Sendi al komenta verkisto mesaĝon',
 'Permanent link to this comment' => 'Daŭrligilo al ĉi tiu komento',
-'Posted by ' => 'Afiŝita de ',
+'Posted by' => 'Afiŝita de',
 'Attachments' => 'Kunsendaĵoj',
 'Link ID' => 'Ligila identigilo',
 'Download file' => 'Elŝuti dosieron',
@@ -6530,7 +6530,6 @@ $trans['eo'] = array(
 'Display permalink icon' => 'Elmontri daŭrligilan piktogramon',
 'Before author' => 'Antaŭ verkisto',
 'Display author information' => 'Elmontri verkistajn informojn',
-'Posted by' => 'Afiŝita de',
 'Started by' => 'Komencita de',
 'Item/post date display format' => 'Elmontra formato por la ero/afiŝo-dato',
 'Extended format %s' => 'Etendita formato %s',
