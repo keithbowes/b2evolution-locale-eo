@@ -1,4 +1,4 @@
-Lingvopako por [b2evolution](https://github.com/keithbowes/b2evolution)
+Lingvopako por [b2evolution](https://gitlab.com/keithbowes/b2evolution)
 =======================================================================
 
 ## Deveno ##
